@@ -1,0 +1,4 @@
+.github/workflows/pr-checks.yml
+changes.diff
+pyproject.toml
+src/calculadora.py
