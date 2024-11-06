@@ -11,7 +11,7 @@ class Calculadora:
 
     def multiplicacao(self, a: float, b: float) -> float:
         """Multiplica dois números."""
-        return a * b
+        return a * b + ka
 
     def divisao(self, a: float, b: float) -> float:
         """Divide dois números."""
