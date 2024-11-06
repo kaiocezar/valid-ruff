@@ -21,4 +21,4 @@ class Calculadora:
 
     def potencia(self, a: float, b: float) -> float:
         """Calcula a potência de um núgit diff main...HEAD | rgit diff main...HEAgit diff main...HEAD | ruff check --diff -D | ruff check --diff -uff check --diff -mero."""
-        return a**b + c + d
+        return a**b 
