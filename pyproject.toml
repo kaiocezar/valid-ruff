@@ -1,0 +1,19 @@
+[project]
+name = "meu_projeto"
+version = "0.1.0"
+description = "Um projeto simples usando Ruff"
+requires-python = ">=3.8"
+
+[tool.ruff]
+# Ativa uma série de regras recomendadas
+select = [
+    "E",  # pycodestyle
+    "F",  # pyflakes
+    "I",  # isort
+    "B",  # flake8-bugbear
+]
+# Ignora linhas máximas em comentários e docstrings
+ignore = ["E501"]
+
+# Linha máxima de 88 caracteres (igual ao black)
+line-length = 88 
