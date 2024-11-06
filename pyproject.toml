@@ -17,3 +17,8 @@ ignore = ["E501"]
 
 # Linha máxima de 88 caracteres (igual ao black)
 line-length = 88 
+
+[tool.darker]
+src = ["."]
+revision = "main..."
+lint = ["ruff"]
