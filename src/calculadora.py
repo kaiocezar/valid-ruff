@@ -18,3 +18,7 @@ class Calculadora:
         if b == 0:
             raise ValueError("Não é possível dividir por zero")
         return a / b
+    
+    def potencia(self, a: float, b: float) -> float:
+        """Calcula a potência de um número."""
+        return a ** b
